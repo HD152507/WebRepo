@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JSFor</title>
+  </head>
+  <body>
+
+    <input type="number" id="in">
+    <input type="button" onclick="fo()">
+
+
+
+    <script type="text/javascript">
+      var num = document.getElementById("in").value;
+      var sum = 0;
+      function fo() {
+      for (var i = 0; i <= num; i++) {
+        sum = i + sum;
+      }
+      document.getElementById("res").innerHTML = "1부터 " + num + "까지의 합은" + sum + "입니다."
+    }
+
+
+    </script>
+    <p id="res"></p>
+  </body>
+</html>
