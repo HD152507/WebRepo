@@ -1,0 +1,51 @@
+@charset "UTF-8";
+#section1 {
+  padding-top: 50px; padding-left: 30px; padding-right: 30px; height:900px; color: #fff; background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+#section2 {
+  padding-top: 50px; padding-left: 30px; padding-right: 30px; height:900px; color: #fff; background-image: linear-gradient(120deg, #66a6ff 0%, #89f7fe 100%);
+}
+#section3 {
+  padding-top: 50px; padding-left: 30px; padding-right: 30px; height:900px; color: #fff; background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+#section4 {
+  padding-top: 50px; padding-left: 30px; padding-right: 30px; height:900px; color: black; background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+#Register {
+  padding-top: 50px; padding-left: 30px; padding-right: 30px; height: 900px; color: #fff; background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.container {
+  padding-top: 50px; height: 900px;
+}
+
+div.container {
+    padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+h5 {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif
+}
+
+h4 {
+  color: black;
+}
+h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+p {
+  color : black;
+}
