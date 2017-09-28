@@ -13,6 +13,8 @@ import javax.servlet.http.HttpSession;
 
 import org.dimigo.vo.UserVO;
 
+import com.google.gson.JsonObject;
+
 
 /**
  * Servlet implementation class LoginServlet
@@ -58,7 +60,7 @@ public class loginServlet extends HttpServlet {
          HttpSession session = request.getSession();
          UserVO user = new UserVO();
          user.setId(id);
-         user.setName("박민영");
+         user.setName("김준하");
          user.setNickname("의적");
    
          session.setAttribute("user", user);
