@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+       <%@ page import = "org.dimigo.vo.UserVO" %>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -32,9 +35,35 @@
               <a class="nav-link" href="#membership">Register</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0" id="SigninForm">
-            <button class="btn btn-outline-success my-2 my-sm-0" href = "/bloglogin.jsp" type="submit">Sign In</button>
-        </form>
+    <%-- 세션에  사용자 정보가 없는 경우 --%>
+    <%
+    	UserVO user = (UserVO)session.getAttribute("user");
+    	if(user == null){
+    %>
+    <form class="form-inline my-2 my-lg-0" id = "LoginForm" action="/WebClass/bloglogin" method="post">
+      <input name="id" class="form-control mr-sm-2" type="text" placeholder="ID" aria-label="id" id="id" value = "<%= (request.getAttribute("msg") == null) ? "" : request.getParameter("id") %>" required>
+      <input name="pwd" class="form-control mr-sm-2" type="password" placeholder="PASSWORD" aria-label="pwd" id="pwd" required>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#signupModal">Sign up</button>
+    <%}else{ %>
+    <%-- 세션에 사용자 정보가 있는 경우 --%>
+	    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+	    <li class="nav-item dropdown">
+	      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    	<%= user.getName()%>님
+	      </a>
+	      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+	      	<form action = "/WebClass/bloglogout" method = "post">
+	      	<button type="submit" class="dropdown-item">Sign out</button>
+	      	</form>
+	       	<div class="dropdown-divider"></div>
+	        <button type="button" class="dropdown-item">Action1</button>
+	        <button type="button" class="dropdown-item">Action2</button>
+	      </div>
+	    </li>
+	    </ul>
+	<%} %> 
     </div>
 </nav>
 <div id ="fullpage">

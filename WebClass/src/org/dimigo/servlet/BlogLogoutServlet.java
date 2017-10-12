@@ -30,20 +30,19 @@ public class BlogLogoutServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		// 세션에 사용자정보 삭제
-		HttpSession session = request.getSession();
+HttpSession session = request.getSession();
 		
 		//session.removeAttribute("user");
 		session.invalidate();
 		
-		RequestDispatcher rd = request.getRequestDispatcher("myblog/main.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("blog/home.jsp");
 		rd.forward(request, response);
 	}
 
