@@ -56,8 +56,8 @@ public class BlogLoginServlet extends HttpServlet {
 			HttpSession session = request.getSession();
 			UserVO user = new UserVO();
 			user.setId(id);
-			user.setName("정석철");
-			user.setNickname("tjrcjf410");
+			user.setName("김준하");
+			user.setNickname("junha0206");
 			session.setAttribute("user", user);
 			
 			// jsp 포워딩
