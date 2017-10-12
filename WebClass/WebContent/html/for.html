@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>JSFor</title>
-  </head>
-  <body>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+*{
+background:gray;
+}
+h1{
+text-align:center;
+font-family:"나눔고딕";
+color:white;
+}
+h2,h5{
+text-align:left;
+font-family:"Lucida Sans TypeWriter";
+color:white;
+text-shadow: 2px 2px#00ffff
+}
+</style>
+<script>
+function sum(){
+	var num = Number(document.getElementById("num").value);
+	document.getElementById("answ").innerHTML= num*(num+1)/2;
+}
+</script>
+</head>
+<body>
+<h1>Sigma</h1>
+<hr>
+<br>
+<input type="text" id="num" size="5"/>
+<input type="button" onclick="sum();" value="button is">
+<h3 id = "answ"></h3>
 
-    <input type="number" id="in">
-    <input type="button" onclick="fo()">
-
-
-
-    <script type="text/javascript">
-      var num = document.getElementById("in").value;
-      var sum = 0;
-      function fo() {
-      for (var i = 0; i <= num; i++) {
-        sum = i + sum;
-      }
-      document.getElementById("res").innerHTML = "1부터 " + num + "까지의 합은" + sum + "입니다."
-    }
-
-
-    </script>
-    <p id="res"></p>
-  </body>
+</body>
 </html>

@@ -1,22 +1,25 @@
+<!--  1. Directive tag (지시자) -->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>泥ル쾲吏� JSP</title>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
 </head>
 <body>
-<!-- comment tag-->
-<!-- Declaration Tags -->
+<%-- 2. cComment Tage(JSP 주석) --%>
+<%-- 3. Declaration tag(선언부) --%>
 <%! private static final String DEFAULT_NAME = "Guest"; %>
+<%-- 4. Scriptlet tag(스크립틀릿)--%>
 <%
-	//comment java code
+	// 자바 코드를 그대로 작성
 	String name = request.getParameter("name");
-	if(name == null) name = DEFAULT_NAME;
+	if(name == null) 
+		name = DEFAULT_NAME;
+	//out.println("<h1>hello, "+ name + "</h1>");
 %>
-
-<!-- expressiont tag -->
-<h1>Hello, <%=name%></h1>
+<%-- 5. Expression tag(표현식) --%>
+<h1> hello, <%=name %></h1>
 </body>
 </html>

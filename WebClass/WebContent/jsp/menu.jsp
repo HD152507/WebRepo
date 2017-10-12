@@ -1,12 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+<ul class="navbar-nav mr-auto">
+      <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)"> 
+        <a class="nav-link" href="/WebClass/session">Menu1 </a>
+      </li>
+      <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
+        <a class="nav-link" href="style.html">Manu2</a>
+      </li>
+      <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
+        <a class="nav-link" href="p.html">Manu3</a>
+      </li>
+    </ul>
