@@ -7,16 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%
+<%
 	Integer cnt = (Integer)session.getAttribute("cnt");
-	if(cnt==null){
+	if(cnt == null){
 		out.println("최초 호출");
-		cnt=0;
+		cnt = 0;
 	}
-	session.setAttribute("cnt",++cnt);
-	
-	%>
-	<h1>cnt : <%=cnt %></h1><br>
-	<%=request.getHeader("Cookie")%>
+	session.setAttribute("cnt", ++cnt);
+%>
+<h1>cnt : <%=cnt %></h1>
+<%= request.getHeader("Cookie") %>
 </body>
 </html>

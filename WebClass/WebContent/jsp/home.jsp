@@ -1,7 +1,7 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import = "org.dimigo.vo.UserVO" %>
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -19,10 +19,10 @@ div.container {
 
 <script>
 function menu_over(e) {
-   e.setAttribute("class", "nav-item active");
+	e.setAttribute("class", "nav-item active");
 }
 function menu_out(e) {
-   e.setAttribute("class", "nav-item");
+	e.setAttribute("class", "nav-item");
 }
 </script>
 </head>
@@ -35,35 +35,34 @@ function menu_out(e) {
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-     <%@ include file="menu.jsp" %>
-     
-    <%-- 세션에 사용자 정보가 없는 경우 --%>
+  	<%@ include file="menu.jsp" %>
+  	
+    <%-- 세션에  사용자 정보가 없는 경우 --%>
     <%
-            UserVO user = (UserVO) session.getAttribute("user"); 
-          if(user == null){
+    	UserVO user = (UserVO)session.getAttribute("user");
+    	if(user == null){
     %>
-       <a class="text-bold text-white" style="text-decoration: none" href="/WebClass/jsp/login.jsp">Sign in</a>
-       <span class="text-bold text-white">&nbsp; or &nbsp;</span>
-       <a class="text-bold text-white" style="text-decoration: none" href="">Sign up</a>
-
-<% } else { %>
+    	<a class="text-bold text-white" style="text-decoration: none" href="/WebClass/login">Sign in</a>
+    	<span class="text-bold text-white">&nbsp; or &nbsp;</span>
+    	<a class="text-bold text-white" style="text-decoration: none" href="/WebClass/signup">Sign up</a>
+    <% } else {%>
     <%-- 세션에 사용자 정보가 있는 경우 --%>
-       <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-       <li class="nav-item dropdown">
-         <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <%= user.getName() %>님
-         </a>
-         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-         <form action = "/WebClass/logout" method = "post">
-            <button type="submit" class="dropdown-item">Sign out</button>
-         </form>
-             <div class="dropdown-divider"></div>
-           <button type="button" class="dropdown-item">Action1</button>
-           <button type="button" class="dropdown-item">Action2</button>
-         </div>
-       </li>
-       </ul>
-       <% } %>
+	    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+	    <li class="nav-item dropdown">
+	      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    	<%= user.getName()%>님
+	      </a>
+	      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+	      	<form action = "/WebClass/logout" method = "post">
+	      	<button type="submit" class="dropdown-item">Sign out</button>
+	      	</form>
+	       	<div class="dropdown-divider"></div>
+	        <button type="button" class="dropdown-item">Action1</button>
+	        <button type="button" class="dropdown-item">Action2</button>
+	      </div>
+	    </li>
+	    </ul>
+	<%} %> 
   </div>
 </nav>
 <div class="container">

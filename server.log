@@ -3,244 +3,93 @@ Using CATALINA_HOME:   /goormService/tomcat7
 Using CATALINA_TMPDIR: /goormService/tomcat7/temp
 Using JRE_HOME:        /usr/lib/jvm/java-8-openjdk-amd64
 Using CLASSPATH:       /goormService/tomcat7/bin/bootstrap.jar:/goormService/tomcat7/bin/tomcat-juli.jar
-10월 12, 2017 4:35:10 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server version:        Apache Tomcat/7.0.77
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server built:          Mar 28 2017 16:01:48 UTC
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server number:         7.0.77.0
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: OS Name:               Linux
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: OS Version:            4.4.0-96-generic
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Architecture:          amd64
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: JVM Version:           1.8.0_111-8u111-b14-3~14.04.1-b14
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: JVM Vendor:            Oracle Corporation
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: CATALINA_BASE:         /goormService/tomcat7
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: CATALINA_HOME:         /goormService/tomcat7
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.util.logging.config.file=/goormService/tomcat7/conf/logging.properties
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.endorsed.dirs=/goormService/tomcat7/endorsed
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Dcatalina.base=/goormService/tomcat7
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Dcatalina.home=/goormService/tomcat7
-10월 12, 2017 4:35:11 오전 org.apache.catalina.startup.VersionLoggerListener log
+10월 12, 2017 8:07:14 오전 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.io.tmpdir=/goormService/tomcat7/temp
-10월 12, 2017 4:35:11 오전 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+10월 12, 2017 8:07:14 오전 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
 정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
-10월 12, 2017 4:35:11 오전 org.apache.coyote.AbstractProtocol init
+10월 12, 2017 8:07:15 오전 org.apache.coyote.AbstractProtocol init
 정보: Initializing ProtocolHandler ["http-bio-8080"]
-10월 12, 2017 4:35:11 오전 org.apache.coyote.AbstractProtocol init
-심각: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
-java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed) <null>:8080
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
-	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
-	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
-	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
-	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
-	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
-Caused by: java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed)
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
-	at java.net.ServerSocket.bind(ServerSocket.java:375)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:181)
-	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
-	... 17 more
-
-10월 12, 2017 4:35:11 오전 org.apache.catalina.core.StandardService initInternal
-심각: Failed to initialize connector [Connector[HTTP/1.1-8080]]
-org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
-	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
-	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
-Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
-	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	... 12 more
-Caused by: java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed) <null>:8080
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
-	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
-	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
-	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
-	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
-	... 13 more
-Caused by: java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed)
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
-	at java.net.ServerSocket.bind(ServerSocket.java:375)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:181)
-	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
-	... 17 more
-
-10월 12, 2017 4:35:11 오전 org.apache.coyote.AbstractProtocol init
+10월 12, 2017 8:07:15 오전 org.apache.coyote.AbstractProtocol init
 정보: Initializing ProtocolHandler ["ajp-bio-8009"]
-10월 12, 2017 4:35:11 오전 org.apache.coyote.AbstractProtocol init
-심각: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
-java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed) <null>:8009
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
-	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
-	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
-	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
-	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
-Caused by: java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed)
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
-	at java.net.ServerSocket.bind(ServerSocket.java:375)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:181)
-	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
-	... 16 more
-
-10월 12, 2017 4:35:11 오전 org.apache.catalina.core.StandardService initInternal
-심각: Failed to initialize connector [Connector[AJP/1.3-8009]]
-org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
-	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
-	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
-	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
-Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
-	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
-	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
-	... 12 more
-Caused by: java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed) <null>:8009
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
-	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:715)
-	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
-	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
-	... 13 more
-Caused by: java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed)
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
-	at java.net.ServerSocket.bind(ServerSocket.java:375)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at java.net.ServerSocket.<init>(ServerSocket.java:181)
-	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
-	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
-	... 16 more
-
-10월 12, 2017 4:35:12 오전 org.apache.catalina.startup.Catalina load
-정보: Initialization processed in 5782 ms
-10월 12, 2017 4:35:12 오전 org.apache.catalina.core.StandardService startInternal
+10월 12, 2017 8:07:15 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 3999 ms
+10월 12, 2017 8:07:15 오전 org.apache.catalina.core.StandardService startInternal
 정보: Starting service Catalina
-10월 12, 2017 4:35:12 오전 org.apache.catalina.core.StandardEngine startInternal
+10월 12, 2017 8:07:15 오전 org.apache.catalina.core.StandardEngine startInternal
 정보: Starting Servlet Engine: Apache Tomcat/7.0.77
-10월 12, 2017 4:35:12 오전 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+10월 12, 2017 8:07:16 오전 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
 정보: validateJarFile(/goormService/tomcat7/webapps/WebContainer/WebClass/WebContent/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
-10월 12, 2017 4:35:14 오전 org.apache.catalina.startup.HostConfig deployDirectory
+10월 12, 2017 8:07:18 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10월 12, 2017 8:07:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/WebContainer
-10월 12, 2017 4:35:14 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/WebContainer has finished in 391 ms
-10월 12, 2017 4:35:14 오전 org.apache.catalina.startup.HostConfig deployDirectory
+10월 12, 2017 8:07:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/WebContainer has finished in 305 ms
+10월 12, 2017 8:07:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/host-manager
-10월 12, 2017 4:35:15 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 714 ms
-10월 12, 2017 4:35:15 오전 org.apache.catalina.startup.HostConfig deployDirectory
+10월 12, 2017 8:07:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 482 ms
+10월 12, 2017 8:07:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/examples
-10월 12, 2017 4:35:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 2,485 ms
-10월 12, 2017 4:35:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
+10월 12, 2017 8:07:22 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 1,802 ms
+10월 12, 2017 8:07:22 오전 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/ROOT
-10월 12, 2017 4:35:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 310 ms
-10월 12, 2017 4:35:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
+10월 12, 2017 8:07:22 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 300 ms
+10월 12, 2017 8:07:22 오전 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/docs
-10월 12, 2017 4:35:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 316 ms
-10월 12, 2017 4:35:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
+10월 12, 2017 8:07:23 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 305 ms
+10월 12, 2017 8:07:23 오전 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/manager
-10월 12, 2017 4:35:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 287 ms
-10월 12, 2017 4:35:19 오전 org.apache.catalina.startup.Catalina start
-정보: Server startup in 7107 ms
-10월 12, 2017 4:35:19 오전 org.apache.catalina.core.StandardServer await
-심각: StandardServer.await: create[localhost:8005]: 
-java.net.BindException: 주소가 이미 사용 중입니다 (Bind failed)
-	at java.net.PlainSocketImpl.socketBind(Native Method)
-	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
-	at java.net.ServerSocket.bind(ServerSocket.java:375)
-	at java.net.ServerSocket.<init>(ServerSocket.java:237)
-	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
-	at org.apache.catalina.startup.Catalina.await(Catalina.java:781)
-	at org.apache.catalina.startup.Catalina.start(Catalina.java:727)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
-	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
-
-10월 12, 2017 4:35:19 오전 org.apache.coyote.AbstractProtocol pause
-정보: Pausing ProtocolHandler ["http-bio-8080"]
-10월 12, 2017 4:35:19 오전 org.apache.coyote.AbstractProtocol pause
-정보: Pausing ProtocolHandler ["ajp-bio-8009"]
-10월 12, 2017 4:35:19 오전 org.apache.catalina.core.StandardService stopInternal
-정보: Stopping service Catalina
-10월 12, 2017 4:35:19 오전 org.apache.coyote.AbstractProtocol stop
-정보: Stopping ProtocolHandler ["http-bio-8080"]
-10월 12, 2017 4:35:19 오전 org.apache.coyote.AbstractProtocol destroy
-정보: Destroying ProtocolHandler ["http-bio-8080"]
-10월 12, 2017 4:35:19 오전 org.apache.coyote.AbstractProtocol stop
-정보: Stopping ProtocolHandler ["ajp-bio-8009"]
-10월 12, 2017 4:35:19 오전 org.apache.coyote.AbstractProtocol destroy
-정보: Destroying ProtocolHandler ["ajp-bio-8009"]
+10월 12, 2017 8:07:23 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 307 ms
+10월 12, 2017 8:07:23 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8080"]
+10월 12, 2017 8:07:23 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-bio-8009"]
+10월 12, 2017 8:07:23 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 8409 ms
+10월 12, 2017 8:07:33 오전 org.apache.catalina.core.StandardContext reload
+정보: Reloading Context with name [/WebClass] has started
+10월 12, 2017 8:07:33 오전 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+정보: validateJarFile(/goormService/tomcat7/webapps/WebContainer/WebClass/WebContent/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+10월 12, 2017 8:07:34 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10월 12, 2017 8:07:34 오전 org.apache.catalina.core.StandardContext reload
+정보: Reloading Context with name [/WebClass] is completed
