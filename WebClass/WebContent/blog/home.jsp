@@ -254,26 +254,29 @@ crossorigin="anonymous"></script>
 <!-- navbar 부분 -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="blog2.html">
-  	tjrcjf.BLog
+  	MYblog
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
   
-  
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
-        <a class="nav-link" href="profile.html">Profile</a>
-      </li>
-      <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
-        <a class="nav-link" href="arduino.html">Arduino</a>
-      </li>
-      <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
-        <a class="nav-link" href="song.html">Song</a>
-      </li>
-    </ul>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item" onmouseover="menu_over(this);" onmouseout="menu_out(this)">
+                <a class="nav-link" href="#profile">My Profile <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" onmouseover="menu_over(this);" onmouseout="menu_out(this)">
+                <a class="nav-link" href="#skill">Educational Travel</a>
+            </li>
+            <li class="nav-item" onmouseover="menu_over(this);" onmouseout="menu_out(this)">
+                <a class="nav-link" href="#activity">My Photos</a>
+            </li>
+            <li class="nav-item" onmouseover="menu_over(this);" onmouseout="menu_out(this)">
+              <a class="nav-link" href="#membership">Register</a>
+            </li>
+        </ul>
     <%-- 세션에  사용자 정보가 없는 경우 --%>
     <%
     	UserVO user = (UserVO)session.getAttribute("user");
@@ -307,8 +310,8 @@ crossorigin="anonymous"></script>
 	    </ul>
 	<%} %> 
   </div>
-</nav>
-</nav>
+
+  </nav>
 <div id ="fullpage">
   <div data-anchor="intro" class="section active" id="section1">
   <h1>Hello My Name is Junha Kim</h1>
@@ -476,4 +479,4 @@ crossorigin="anonymous"></script>
 <script src="../js/myblog.js"></script>
 
 </body>
-</html></html>
+</html>
