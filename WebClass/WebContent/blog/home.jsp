@@ -21,6 +21,8 @@
 </head>
 <body>
 	
+	
+
 	<style>
 		@charset "UTF-8";
 #section1 {
@@ -73,11 +75,9 @@ h3 {
 p {
   color : black;
 }
-
-
 	</style>
 
-<!-- navbar 부분 -->
+<!-- navbar 부분 d-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="blog2.html">
   	MyBlog
