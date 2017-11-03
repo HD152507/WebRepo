@@ -21,8 +21,6 @@
 </head>
 <body>
 	
-	
-
 	<style>
 		@charset "UTF-8";
 #section1 {
@@ -75,16 +73,14 @@ h3 {
 p {
   color : black;
 }
+
+
 	</style>
 
-<!-- navbar 부분 d-->
+<!-- navbar 부분 -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="blog2.html">
-<<<<<<< HEAD
   	MyBlog
-=======
-  	MYblog
->>>>>>> 9ce35336a19d40d017b60818587765b1310096fd
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -92,12 +88,7 @@ p {
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-<<<<<<< HEAD
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-=======
-  
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
->>>>>>> 9ce35336a19d40d017b60818587765b1310096fd
             <li class="nav-item" onmouseover="menu_over(this);" onmouseout="menu_out(this)">
                 <a class="nav-link" href="#profile">My Profile <span class="sr-only">(current)</span></a>
             </li>
@@ -144,14 +135,9 @@ p {
 	    </ul>
 	<%} %>
   </div>
-<<<<<<< HEAD
 </nav>
 
 
-=======
-
-  </nav>
->>>>>>> 9ce35336a19d40d017b60818587765b1310096fd
 <div id ="fullpage">
   <div data-anchor="intro" class="section active" id="section1">
   <h1>Hello My Name is Junha Kim</h1>
@@ -357,8 +343,5 @@ p {
 	<% } %>
 </script>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 9ce35336a19d40d017b60818587765b1310096fd
+

@@ -72,6 +72,8 @@ public class loginServlet extends HttpServlet {
          RequestDispatcher rd = request.getRequestDispatcher("jsp/login.jsp");
          rd.forward(request, response);
          
+         
+         
       }
 
       out.close();
@@ -108,5 +110,10 @@ protected void doPost2(HttpServletRequest request, HttpServletResponse response)
    System.out.println(json.toString());
    out.write(json.toString());         
    out.close();
+}
+
+try {
+	string uri = reqest.getRequestURI();
+	
 }
 }
