@@ -28,7 +28,8 @@ public class loginServlet extends HttpServlet {
      */
     public loginServlet() {
         super();
-        // TODO Auto-generated constructor stub
+        //TODO Ban
+        //TODO extract
     }
 
    /**
@@ -71,9 +72,6 @@ public class loginServlet extends HttpServlet {
          request.setAttribute("msg","error");
          RequestDispatcher rd = request.getRequestDispatcher("jsp/login.jsp");
          rd.forward(request, response);
-         
-         
-         
       }
 
       out.close();
@@ -102,7 +100,7 @@ protected void doPost2(HttpServletRequest request, HttpServletResponse response)
 //   json.put("id", id);
 //   System.out.println(json.toJSONString());
 //   out.write(json.toJSONString());
-//   
+//   TODO BANGIN'
       //Gson library를 사용하도록 소스 작성하기
 
    JsonObject json = new JsonObject();
@@ -112,8 +110,8 @@ protected void doPost2(HttpServletRequest request, HttpServletResponse response)
    out.close();
 }
 
-try {
-	string uri = reqest.getRequestURI();
-	
-}
+//try {
+//	string uri = reqest.getRequestURI();
+//	
+//}
 }
